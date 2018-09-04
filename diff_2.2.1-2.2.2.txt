@@ -1,0 +1,132 @@
+2c2
+< ./tex2pdf.23581
+---
+> ./tex2pdf.-02250339a82850d0
+4c4
+< pdflatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "./tex2pdf.23581" "./tex2pdf.23581/input.tex"
+---
+> pdflatex "-halt-on-error" "-interaction" "nonstopmode" "-output-directory" "./tex2pdf.-02250339a82850d0" "./tex2pdf.-02250339a82850d0/input.tex"
+7c7
+< ("TEXINPUTS","./tex2pdf.23581:")
+---
+> ("TEXINPUTS","./tex2pdf.-02250339a82850d0:")
+75c75
+< [makePDF] Contents of ./tex2pdf.23581/input.tex:
+---
+> [makePDF] Contents of ./tex2pdf.-02250339a82850d0/input.tex:
+136c136
+< \hl{Highlight this text!}
+---
+> \hl\{Highlight this text!\}
+144c144
+< (./tex2pdf.23581/input.tex
+---
+> (./tex2pdf.-02250339a82850d0/input.tex
+210c210
+< (./tex2pdf.23581/input.aux)
+---
+> (./tex2pdf.-02250339a82850d0/input.aux)
+218,219c218,219
+< Output written on ./tex2pdf.23581/input.pdf (1 page, 25290 bytes).
+< Transcript written on ./tex2pdf.23581/input.log.
+---
+> Output written on ./tex2pdf.-02250339a82850d0/input.pdf (1 page, 25647 bytes).
+> Transcript written on ./tex2pdf.-02250339a82850d0/input.log.
+225c225
+< (./tex2pdf.23581/input.tex
+---
+> (./tex2pdf.-02250339a82850d0/input.tex
+282c282
+< (./tex2pdf.23581/input.aux)
+---
+> (./tex2pdf.-02250339a82850d0/input.aux)
+288c288
+< (./tex2pdf.23581/input.out) (./tex2pdf.23581/input.out)
+---
+> (./tex2pdf.-02250339a82850d0/input.out) (./tex2pdf.-02250339a82850d0/input.out)
+292,371c292,295
+< (./tex2pdf.23581/input.aux) ){/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</u
+< sr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
+< Output written on ./tex2pdf.23581/input.pdf (1 page, 25290 bytes).
+< Transcript written on ./tex2pdf.23581/input.log.
+< 
+< [makePDF] Run #3
+< This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex)
+<  restricted \write18 enabled.
+< entering extended mode
+< (./tex2pdf.23581/input.tex
+< LaTeX2e <2017/01/01> patch level 3
+< Babel <3.9r> and hyphenation patterns for 8 language(s) loaded.
+< (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+< Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+< (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+< (/usr/share/texmf/tex/latex/lm/lmodern.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+< (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty))
+< (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+< For additional information on amsmath, use the `?' option.
+< (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+< (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+< (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty))
+< (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+< (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+< 
+< Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+< (fixltx2e)                All fixes are now in the LaTeX kernel.
+< (fixltx2e)                See the latexrelease package for details.
+< 
+< ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+< (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def))
+< (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+< (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+< (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+< (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+< (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)))
+< (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+< (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+< (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
+< (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+< (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def)
+< (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg))
+< (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+< (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+< (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+< (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def)
+< (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg)
+< (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def)
+< (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+< 
+< Package hyperref Message: Driver (autodetected): hpdftex.
+< 
+< (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+< (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+< (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty)
+< (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+< (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+< (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))
+< (./tex2pdf.23581/input.aux)
+< (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+< (/usr/share/texmf/tex/latex/lm/t1lmr.fd)
+< (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg)
+< (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+< (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+< (./tex2pdf.23581/input.out) (./tex2pdf.23581/input.out)
+< (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+< [Loading MPS to PDF converter (version 2006.09.02).]
+< ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+< (./tex2pdf.23581/input.aux) ){/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</u
+< sr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
+< Output written on ./tex2pdf.23581/input.pdf (1 page, 25290 bytes).
+< Transcript written on ./tex2pdf.23581/input.log.
+---
+> (./tex2pdf.-02250339a82850d0/input.aux) ){/usr/share/texmf/fonts/enc/dvips/lm/l
+> m-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
+> Output written on ./tex2pdf.-02250339a82850d0/input.pdf (1 page, 25647 bytes).
+> Transcript written on ./tex2pdf.-02250339a82850d0/input.log.

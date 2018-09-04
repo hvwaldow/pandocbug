@@ -1,0 +1,66 @@
+[
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "soul.sty",
+        "source": "source",
+        "line": 1,
+        "column": 18
+    },
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "soul.sty",
+        "source": "source",
+        "line": 1,
+        "column": 18
+    },
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "soul.sty",
+        "source": "source",
+        "line": 1,
+        "column": 18
+    },
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "soul.sty",
+        "source": "source",
+        "line": 1,
+        "column": 18
+    },
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "color.sty",
+        "source": "source",
+        "line": 1,
+        "column": 19
+    },
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "color.sty",
+        "source": "source",
+        "line": 1,
+        "column": 19
+    },
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "color.sty",
+        "source": "source",
+        "line": 1,
+        "column": 19
+    },
+    {
+        "type": "CouldNotLoadIncludeFile",
+        "verbosity": "INFO",
+        "path": "color.sty",
+        "source": "source",
+        "line": 1,
+        "column": 19
+    }
+]

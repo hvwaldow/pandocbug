@@ -1,0 +1,50 @@
+vonwalha@inf-vonwalha-pc:~/rdm/pandocbug$ pandoc -v
+
+> pandoc 2.2.3.2
+> Compiled with pandoc-types 1.17.5.1, texmath 0.11.0.1, skylighting 0.7.2
+> Default user data directory: /home/vonwalha/.pandoc
+> ...
+
+vonwalha@inf-vonwalha-pc:~/rdm/pandocbug$ rm -rf ~/.pandoc
+
+pandoc -t latex -o demo_pandoc-v2.2.3.2.pdf demo.md
+
+> Error occurs!
+
+For pandoc 1.17.2 color.sty and soul.sty are found:
+
+> (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty))
+> 
+> Package hyperref Message: Driver (autodetected): hpdftex.
+> 
+> (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+> (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+> (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty)
+> (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty)
+> (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+> (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg)
+> (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def))
+
+For pandoc 2.2.3.2:
+
+[INFO] Could not load include file 'soul.sty' at line 1 column 18
+[INFO] Could not load include file 'soul.sty' at line 1 column 18
+[INFO] Could not load include file 'color.sty' at line 1 column 19
+[INFO] Could not load include file 'color.sty' at line 1 column 19
+
+Last working release:
+https://github.com/jgm/pandoc/tree/2.2.1
+-----------------------------------------
+vonwalha@inf-vonwalha-pc:~/rdm/pandocbug$ pandoc -v
+pandoc 2.2.1
+Compiled with pandoc-types 1.17.4.2, texmath 0.11, skylighting 0.7.0.2
+----------------------------------------------------------------------
+
+First not working release:
+https://github.com/jgm/pandoc/tree/2.2.2
+----------------------------------------------------------------------
+vonwalha@inf-vonwalha-pc:~/rdm/pandocbug$ pandoc -v
+pandoc 2.2.2
+Compiled with pandoc-types 1.17.5.1, texmath 0.11.0.1, skylighting 0.7.2
+------------------------------------------------------------------------
+
